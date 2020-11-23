@@ -1,6 +1,7 @@
 function menu(){
     const sec = document.createElement('section');
     sec.setAttribute('class','tabcontent');
+    
 
     const para = document.createElement('p');
     para.innerHTML = "Biryani";
@@ -25,9 +26,11 @@ function menu(){
     paraimg1.style.width = "400px";
     paraimg1.style.height = "300px";
     const para2 = document.createElement('p');
-    para1.setAttribute('class','secondRow');
+    // para1.setAttribute('class','secondRow');
     para2.innerHTML = "Tea";
+    para2.setAttribute('class','tea');
     para2.style.textAlign = "center";
+    
     const paraimg2 = document.createElement('img');
     paraimg2.src = "https://www.thestatesman.com/wp-content/uploads/2019/05/tea-culture-1024x683.jpg";
     paraimg2.style.width = "400px";
