@@ -1,0 +1,42 @@
+body{
+    margin: 0px 0px 0px 0px;
+    
+}
+
+.header{
+    width: 100%;
+    text-align: center; font-size: 50px; color: #e4e978; background-color: #706897; margin-top: 0px; margin-bottom: 5px; height: 90px; padding-top: 20px;
+    font-family: 'Indie Flower', cursive;
+}
+
+nav{
+    text-align: center;
+    background-color:orange;
+    margin-bottom: 5px;
+}
+button{
+    text-align: center; font-size: 20px; color: black;  width:300px; height: 40px; 
+    /* opacity: 0.7; */
+    font-family: 'Texturina', serif;
+    background-color:orange;
+    margin-right: 10px;
+}
+
+.set{
+    width: 1517px; opacity: 0.5; position: relative; text-align: center;
+}
+
+.paragraph{
+    position: absolute; top: 70%; left: 41%; font-size: 35px; color: #a20a0a; font-family: 'Kaushan Script', cursive;
+}
+
+.secondRow{
+    display: flex;
+}
+
+@media screen and (max-width: 800px) {
+    .paragraph{
+        font-size: 30px;
+        top: 90%;
+    }
+}
