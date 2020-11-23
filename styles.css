@@ -39,4 +39,8 @@ button{
         font-size: 30px;
         top: 90%;
     }
+    .set{
+        width: auto;
+        height: 900px;
+    }
 }
